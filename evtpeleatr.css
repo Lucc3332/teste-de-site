@@ -1,0 +1,106 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* MENU (usando suas "caixinhas") */
+nav {
+    padding: 20px;
+}
+
+.evolutions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.evolution {
+    margin: 10px;
+    padding: 12px 20px;
+    background-color: #cc0000;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.evolution a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* efeito ao passar o mouse */
+.evolution:hover {
+    background-color: #990000;
+    transform: scale(1.05);
+}
+
+/* CENTRALIZAÇÃO */
+.center {
+    text-align: center;
+    padding: 20px;
+}
+
+/* HEADER */
+header h1 {
+    color: #cc0000;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    color: #666;
+    font-weight: normal;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* MAIN */
+main {
+    padding: 20px;
+}
+
+/* SEÇÕES */
+section {
+    margin-bottom: 25px;
+}
+
+section h3 {
+    color: #cc0000;
+    margin-bottom: 8px;
+}
+
+section p,
+section ul {
+    line-height: 1.6;
+}
+
+/* LISTAS */
+ul {
+    padding-left: 20px;
+}
+
+/* IMAGEM */
+main img {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+}
+
+main p {
+    text-align: center;
+}

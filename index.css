@@ -1,0 +1,127 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffffff; /* branco */
+    color: #333;
+}
+
+/* Container principal */
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Menu de navegação */
+nav {
+    background-color: #cc0000; /* vermelho */
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff; /* branco */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+/* Centralização */
+.center {
+    text-align: center;
+}
+
+/* Header */
+header {
+    padding: 20px;
+}
+
+header img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+header h1 {
+    color: #cc0000;
+    margin-top: 15px;
+}
+
+header h2 {
+    color: #666;
+    font-weight: normal;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h3 {
+    color: #cc0000;
+    margin-bottom: 10px;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+/* Área de links extras */
+.evolutions {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.evolution {
+    margin: 10px;
+    padding: 15px;
+    background-color: #cc0000;
+    border-radius: 8px;
+}
+
+.evolution a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+footer a {
+    text-decoration: none;
+    color: #cc0000;
+}
+
+footer img {
+    width: 50px;
+}
